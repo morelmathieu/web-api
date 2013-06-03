@@ -1,0 +1,23 @@
+mmo_experiment_homepage:
+    pattern:  /
+    defaults: { _controller: MmoExperimentBundle:Default:index }
+
+mmo_experiment_hello_world:
+    pattern:  /hello
+    defaults: { _controller: MmoExperimentBundle:Default:hello }
+
+mmo_experiment_hello_someone:
+    pattern:  /hello/{name}
+    defaults: { _controller: MmoExperimentBundle:Default:hello }
+    
+mmo_experiment_json:
+    pattern: /json
+    defaults: { _controller: MmoExperimentBundle:Default:json }
+    
+mmo_experiment_headers:
+    pattern: /headers
+    defaults: { _controller: MmoExperimentBundle:Default:headers }
+    
+mmo_experiment_http_request_body:
+    pattern: display_http_request_body
+    defaults: { _controller: MmoExperimentBundle:Default:displayHttpRequestBody }

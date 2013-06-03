@@ -1,0 +1,4 @@
+mmo_experiment:
+    resource: "@MmoExperimentBundle/Resources/config/routing.yml"
+    prefix:   /
+

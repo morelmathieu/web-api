@@ -1,0 +1,10 @@
+default:
+  context:
+    class: Mmo\Bundle\ExperimentBundle\Features\Context\FeatureContext
+    parameters:
+      base_url: http://monsite1.fr/app_dev.php
+  extensions:
+    Behat\Symfony2Extension\Extension: ~
+    Behat\MinkExtension\Extension:
+       goutte: ~
+       base_url:  http://monsite1.fr/app_dev.php
